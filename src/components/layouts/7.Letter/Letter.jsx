@@ -7,7 +7,7 @@ const Letter = () => {
   return (
     <section className="bg-BannerColor">
       <Container className={`bg-secondary box-border py-9 px-16`}>
-        <Flex className={`justify-between`}>
+        <Flex className={`justify-center gap-10 flex-wrap`}>
           <Flex className={`flex-col`}>
             <h4 className="font-Vol font-bold text-white text-colorHeading">
               Subscribe to our Youtube!
@@ -19,7 +19,7 @@ const Letter = () => {
           </Flex>
 
           <div>
-            <Flex>
+            <Flex className={`flex-wrap gap-y-3`}>
               <input
                 type="email"
                 placeholder="Enter your email"

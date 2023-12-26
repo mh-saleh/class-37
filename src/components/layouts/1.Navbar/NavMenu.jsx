@@ -5,7 +5,7 @@ import Flex from "../../Flex";
 const NavMenu = () => {
   return (
     <ul>
-      <Flex className={`gap-20`}>
+      <Flex className={`gap-x-20 gap-y-3 flex-wrap`}>
         <NavList text={`Home`} />
         <NavList text={`Projects`} />
         <NavList text={`Pages`} />

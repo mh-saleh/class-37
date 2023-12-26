@@ -6,9 +6,9 @@ import FooterLeft from "./FooterLeft";
 
 const Footer = () => {
   return (
-    <section className="bg-BannerColor">
+    <section className="bg-BannerColor px-[2vw]">
       <Container className="py-20 border-b border-[#00413D]">
-        <Flex className={`justify-between`}>
+        <Flex className={`justify-center gap-12 flex-wrap`}>
           <FooterLeft />
           <FooterAllMenu />
         </Flex>

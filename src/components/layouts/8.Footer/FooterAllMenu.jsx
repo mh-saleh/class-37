@@ -5,7 +5,7 @@ import FooterList from "./FooterList";
 
 const FooterAllMenu = () => {
   return (
-    <Flex className={`gap-40`}>
+    <Flex className={`gap-40 justify-center flex-wrap`}>
       <div>
         <FooterHeading text="Product" />
         <ul>

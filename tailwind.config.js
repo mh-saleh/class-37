@@ -29,6 +29,11 @@ export default {
         secondaryContainer: "1600px",
       },
       backgroundImage: {},
+      screens: {
+        "custom-xs": "320px",
+        "custom-sm": "663px",
+        "custom-lg": "1145px",
+      },
     },
   },
   plugins: [],

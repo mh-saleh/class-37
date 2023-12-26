@@ -9,9 +9,11 @@ import SecondaryContainer from "../../SecondaryContainer";
 
 const Banner = () => {
   return (
-    <section className={`pt-12 pb-16 bg-BannerColor`}>
+    <section className={`pt-12 pb-16 bg-BannerColor px-[1vw]`}>
       <SecondaryContainer>
-        <Flex className={`justify-between items-center`}>
+        <Flex
+          className={` items-center justify-between md:justify-center flex-wrap-reverse gap-y-4`}
+        >
           <div>
             <Title text={`UI/UX Designer`} />
             <Flex className={`flex-col gap-6`}>

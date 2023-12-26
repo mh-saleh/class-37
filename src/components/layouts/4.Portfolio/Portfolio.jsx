@@ -9,7 +9,7 @@ import Container from "../../Container";
 
 const Portfolio = () => {
   return (
-    <section className="bg-BannerColor py-32">
+    <section className="bg-BannerColor py-32 px-[2vw]">
       <SecondaryContainer>
         <Heading className={`mb-10 text-center`}>My Working Portfolio</Heading>
         <img src={PortfolioImage} alt="" />

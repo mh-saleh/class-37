@@ -1,5 +1,7 @@
 const Container = ({ children, className }) => {
-  return <div className={`w-container mx-auto ${className}`}>{children}</div>;
+  return (
+    <div className={`max-w-container mx-auto ${className}`}>{children}</div>
+  );
 };
 
 export default Container;

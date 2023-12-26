@@ -9,10 +9,12 @@ import Flex from "../../Flex";
 const Navbar = () => {
   return (
     <section
-      className={`bg-BannerColor py-5 border border-b-1 border-borderColor`}
+      className={`bg-BannerColor py-5 border border-b-1 border-borderColor px-[1vw]`}
     >
       <SecondaryContainer>
-        <Flex className={`justify-between items-center`}>
+        <Flex
+          className={`justify-center items-center gap-y-2 flex-wrap md:justify-between`}
+        >
           <img src={Logo} alt="" />
           <NavMenu />
           <Flex className={`gap-4 items-center`}>

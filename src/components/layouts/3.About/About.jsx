@@ -9,9 +9,9 @@ import Container from "../../Container";
 
 const About = () => {
   return (
-    <section className="py-28 bg-gradient-to-t from-BannerColor via-BannerColor to-white">
+    <section className="py-28 bg-gradient-to-t from-BannerColor via-BannerColor to-white px-[2vw]">
       <Container>
-        <Flex className={`justify-between items-center`}>
+        <Flex className={`justify-center gap-16 items-center flex-wrap`}>
           <Flex className={`flex-col gap-2`}>
             <Title text="ABOUT ME" />
             <Heading>
@@ -19,6 +19,7 @@ const About = () => {
             </Heading>
             <img src={AboutImage} alt="" />
           </Flex>
+
           <div>
             <Paragraph className={`mt-20`}>
               Solvency based award-winning design director and UI/UX <br />

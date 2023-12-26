@@ -8,7 +8,7 @@ import Flex from "../../Flex";
 
 const ProjectCard = () => {
   return (
-    <Flex className={`justify-between`}>
+    <Flex className={`justify-center gap-10 flex-wrap`}>
       <div>
         <Title text={`OUR SKILLS`} />
         <Heading className={`mt-3`}>
